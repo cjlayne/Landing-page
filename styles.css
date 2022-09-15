@@ -1,3 +1,6 @@
+*{
+    color: #2c3e23;
+}
 .section-1 {
     display: flex;
     height:30px;
@@ -23,11 +26,10 @@
 .section-2 {
     display:flex;
     flex-direction: row;
-    height: 150px;
+    height: 200px;
     background-color:#9bbb8a ;
-    justify-content: space-between;
-    padding:50px;
     gap: 40px;
+    padding: 50px;
 }
 .section-2 div {
     flex: 1 1 0%;
@@ -35,8 +37,12 @@
 .half1 {
     display:flex;
     flex-direction: column;
-    padding:5px;
 
+}
+.half1 button {
+    color: #DACAA4;
+    background-color: #648b50;
+    border-radius: 5px;
 }
 .half2 {
     display: flex;
@@ -46,8 +52,11 @@
     align-items:center;
     justify-content: center;
 }
+.half2 p{
+    color: #DACAA4;
+}
 .section-3 {
-    flex-wrap: wrap;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     background-color: #80a96b;
@@ -63,31 +72,87 @@
     width:100px;
 }
 .button1 button{
-    background-color: #6a4a3a;
+    background-color:#DACAA4;
     width:100px;
     height:100px;
+    border-radius: 15px;
 }
 .button2 {
     width:100px;
 }
 .button2 button{
-    background-color: #6a4a3a;
+    background-color: #DACAA4;
     width:100px;
     height:100px;
+    border-radius: 15px;
 }
 .button3 {
     width:100px;
 }
 .button3 button{
-    background-color: #6a4a3a;
+    background-color:#DACAA4;
     width:100px;
     height:100px;
+    border-radius: 15px;
 }
 .button4 {
     width:100px;
 }
 .button4 button{
-    background-color: #6a4a3a;
+    background-color:#DACAA4;
     width:100px;
     height:100px;
+    border-radius: 15px;
+}
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c8ad7e;
+    padding: 20px;
+    height: 200px;
+}
+.section-4 p {
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    width: 400px;
+}
+.section-4 b {
+    display: flex;
+    justify-content: right;
+    width: 400px;
+}
+.section-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DACAA4;
+    height: 200px;
+    padding: 20px;
+}
+.inner-box {
+    display: flex;
+    background-color: #648b50;
+    height: 80px;
+    width: 600px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.text h3 {
+    font-size: 16px;
+    line-height: 0px;
+}
+.text p {
+    font-size: 12px;
+    line-height: 0px;
+}
+.section-5 button {
+    background-color: #6a4a3a;
+    color:#DACAA4;
+    border-radius: 5px;
 }
